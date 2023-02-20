@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADA529A3371A00072E88 /* Speech_World_Controller_MainApp.swift */; };
+		F32EADA829A3371A00072E88 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADA729A3371A00072E88 /* Persistence.swift */; };
+		F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F32EADA929A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld */; };
+		F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADAC29A3371A00072E88 /* ContentView.swift */; };
+		F32EADAF29A3371B00072E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32EADAE29A3371B00072E88 /* Assets.xcassets */; };
+		F32EADB329A3371B00072E88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32EADB229A3371B00072E88 /* Preview Assets.xcassets */; };
+		F32EADBD29A3371B00072E88 /* Speech_World_Controller_MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADBC29A3371B00072E88 /* Speech_World_Controller_MainTests.swift */; };
+		F32EADC729A3371B00072E88 /* Speech_World_Controller_MainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADC629A3371B00072E88 /* Speech_World_Controller_MainUITests.swift */; };
+		F32EADC929A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADC829A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F32EADB929A3371B00072E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32EAD9A29A3371A00072E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32EADA129A3371A00072E88;
+			remoteInfo = "Speech-World-Controller-Main";
+		};
+		F32EADC329A3371B00072E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32EAD9A29A3371A00072E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32EADA129A3371A00072E88;
+			remoteInfo = "Speech-World-Controller-Main";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F32EADA229A3371A00072E88 /* Speech-World-Controller-Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech-World-Controller-Main.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32EADA529A3371A00072E88 /* Speech_World_Controller_MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainApp.swift; sourceTree = "<group>"; };
+		F32EADA729A3371A00072E88 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F32EADAA29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Speech_World_Controller_Main.xcdatamodel; sourceTree = "<group>"; };
+		F32EADAC29A3371A00072E88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F32EADAE29A3371B00072E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F32EADB029A3371B00072E88 /* Speech_World_Controller_Main.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Speech_World_Controller_Main.entitlements; sourceTree = "<group>"; };
+		F32EADB229A3371B00072E88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F32EADB829A3371B00072E88 /* Speech-World-Controller-MainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speech-World-Controller-MainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32EADBC29A3371B00072E88 /* Speech_World_Controller_MainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainTests.swift; sourceTree = "<group>"; };
+		F32EADC229A3371B00072E88 /* Speech-World-Controller-MainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speech-World-Controller-MainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32EADC629A3371B00072E88 /* Speech_World_Controller_MainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainUITests.swift; sourceTree = "<group>"; };
+		F32EADC829A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32EAD9F29A3371A00072E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EADB529A3371B00072E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EADBF29A3371B00072E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F32EAD9929A3371A00072E88 = {
+			isa = PBXGroup;
+			children = (
+				F32EADA429A3371A00072E88 /* Speech-World-Controller-Main */,
+				F32EADBB29A3371B00072E88 /* Speech-World-Controller-MainTests */,
+				F32EADC529A3371B00072E88 /* Speech-World-Controller-MainUITests */,
+				F32EADA329A3371A00072E88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F32EADA329A3371A00072E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32EADA229A3371A00072E88 /* Speech-World-Controller-Main.app */,
+				F32EADB829A3371B00072E88 /* Speech-World-Controller-MainTests.xctest */,
+				F32EADC229A3371B00072E88 /* Speech-World-Controller-MainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32EADA429A3371A00072E88 /* Speech-World-Controller-Main */ = {
+			isa = PBXGroup;
+			children = (
+				F32EADA529A3371A00072E88 /* Speech_World_Controller_MainApp.swift */,
+				F32EADA729A3371A00072E88 /* Persistence.swift */,
+				F32EADAC29A3371A00072E88 /* ContentView.swift */,
+				F32EADAE29A3371B00072E88 /* Assets.xcassets */,
+				F32EADB029A3371B00072E88 /* Speech_World_Controller_Main.entitlements */,
+				F32EADA929A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld */,
+				F32EADB129A3371B00072E88 /* Preview Content */,
+			);
+			path = "Speech-World-Controller-Main";
+			sourceTree = "<group>";
+		};
+		F32EADB129A3371B00072E88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F32EADB229A3371B00072E88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F32EADBB29A3371B00072E88 /* Speech-World-Controller-MainTests */ = {
+			isa = PBXGroup;
+			children = (
+				F32EADBC29A3371B00072E88 /* Speech_World_Controller_MainTests.swift */,
+			);
+			path = "Speech-World-Controller-MainTests";
+			sourceTree = "<group>";
+		};
+		F32EADC529A3371B00072E88 /* Speech-World-Controller-MainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F32EADC629A3371B00072E88 /* Speech_World_Controller_MainUITests.swift */,
+				F32EADC829A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift */,
+			);
+			path = "Speech-World-Controller-MainUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32EADA129A3371A00072E88 /* Speech-World-Controller-Main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32EADCC29A3371B00072E88 /* Build configuration list for PBXNativeTarget "Speech-World-Controller-Main" */;
+			buildPhases = (
+				F32EAD9E29A3371A00072E88 /* Sources */,
+				F32EAD9F29A3371A00072E88 /* Frameworks */,
+				F32EADA029A3371A00072E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speech-World-Controller-Main";
+			productName = "Speech-World-Controller-Main";
+			productReference = F32EADA229A3371A00072E88 /* Speech-World-Controller-Main.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F32EADB729A3371B00072E88 /* Speech-World-Controller-MainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32EADCF29A3371B00072E88 /* Build configuration list for PBXNativeTarget "Speech-World-Controller-MainTests" */;
+			buildPhases = (
+				F32EADB429A3371B00072E88 /* Sources */,
+				F32EADB529A3371B00072E88 /* Frameworks */,
+				F32EADB629A3371B00072E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32EADBA29A3371B00072E88 /* PBXTargetDependency */,
+			);
+			name = "Speech-World-Controller-MainTests";
+			productName = "Speech-World-Controller-MainTests";
+			productReference = F32EADB829A3371B00072E88 /* Speech-World-Controller-MainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F32EADC129A3371B00072E88 /* Speech-World-Controller-MainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32EADD229A3371B00072E88 /* Build configuration list for PBXNativeTarget "Speech-World-Controller-MainUITests" */;
+			buildPhases = (
+				F32EADBE29A3371B00072E88 /* Sources */,
+				F32EADBF29A3371B00072E88 /* Frameworks */,
+				F32EADC029A3371B00072E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32EADC429A3371B00072E88 /* PBXTargetDependency */,
+			);
+			name = "Speech-World-Controller-MainUITests";
+			productName = "Speech-World-Controller-MainUITests";
+			productReference = F32EADC229A3371B00072E88 /* Speech-World-Controller-MainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32EAD9A29A3371A00072E88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F32EADA129A3371A00072E88 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F32EADB729A3371B00072E88 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F32EADA129A3371A00072E88;
+					};
+					F32EADC129A3371B00072E88 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F32EADA129A3371A00072E88;
+					};
+				};
+			};
+			buildConfigurationList = F32EAD9D29A3371A00072E88 /* Build configuration list for PBXProject "Speech-World-Controller-Main" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F32EAD9929A3371A00072E88;
+			productRefGroup = F32EADA329A3371A00072E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32EADA129A3371A00072E88 /* Speech-World-Controller-Main */,
+				F32EADB729A3371B00072E88 /* Speech-World-Controller-MainTests */,
+				F32EADC129A3371B00072E88 /* Speech-World-Controller-MainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32EADA029A3371A00072E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32EADB329A3371B00072E88 /* Preview Assets.xcassets in Resources */,
+				F32EADAF29A3371B00072E88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EADB629A3371B00072E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EADC029A3371B00072E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32EAD9E29A3371A00072E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */,
+				F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */,
+				F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */,
+				F32EADA829A3371A00072E88 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EADB429A3371B00072E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32EADBD29A3371B00072E88 /* Speech_World_Controller_MainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EADBE29A3371B00072E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32EADC929A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift in Sources */,
+				F32EADC729A3371B00072E88 /* Speech_World_Controller_MainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F32EADBA29A3371B00072E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32EADA129A3371A00072E88 /* Speech-World-Controller-Main */;
+			targetProxy = F32EADB929A3371B00072E88 /* PBXContainerItemProxy */;
+		};
+		F32EADC429A3371B00072E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32EADA129A3371A00072E88 /* Speech-World-Controller-Main */;
+			targetProxy = F32EADC329A3371B00072E88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F32EADCA29A3371B00072E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F32EADCB29A3371B00072E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F32EADCD29A3371B00072E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Speech-World-Controller-Main/Speech_World_Controller_Main.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Speech-World-Controller-Main/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2TMRX3MRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NalindaGamaarachchi.Speech-World-Controller-Main";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F32EADCE29A3371B00072E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Speech-World-Controller-Main/Speech_World_Controller_Main.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Speech-World-Controller-Main/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2TMRX3MRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NalindaGamaarachchi.Speech-World-Controller-Main";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F32EADD029A3371B00072E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2TMRX3MRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NalindaGamaarachchi.Speech-World-Controller-MainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speech-World-Controller-Main.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Speech-World-Controller-Main";
+			};
+			name = Debug;
+		};
+		F32EADD129A3371B00072E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2TMRX3MRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NalindaGamaarachchi.Speech-World-Controller-MainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speech-World-Controller-Main.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Speech-World-Controller-Main";
+			};
+			name = Release;
+		};
+		F32EADD329A3371B00072E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2TMRX3MRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NalindaGamaarachchi.Speech-World-Controller-MainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Speech-World-Controller-Main";
+			};
+			name = Debug;
+		};
+		F32EADD429A3371B00072E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2TMRX3MRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NalindaGamaarachchi.Speech-World-Controller-MainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Speech-World-Controller-Main";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32EAD9D29A3371A00072E88 /* Build configuration list for PBXProject "Speech-World-Controller-Main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32EADCA29A3371B00072E88 /* Debug */,
+				F32EADCB29A3371B00072E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32EADCC29A3371B00072E88 /* Build configuration list for PBXNativeTarget "Speech-World-Controller-Main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32EADCD29A3371B00072E88 /* Debug */,
+				F32EADCE29A3371B00072E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32EADCF29A3371B00072E88 /* Build configuration list for PBXNativeTarget "Speech-World-Controller-MainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32EADD029A3371B00072E88 /* Debug */,
+				F32EADD129A3371B00072E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32EADD229A3371B00072E88 /* Build configuration list for PBXNativeTarget "Speech-World-Controller-MainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32EADD329A3371B00072E88 /* Debug */,
+				F32EADD429A3371B00072E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F32EADA929A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F32EADAA29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodel */,
+			);
+			currentVersion = F32EADAA29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodel */;
+			path = Speech_World_Controller_Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F32EAD9A29A3371A00072E88 /* Project object */;
+}
