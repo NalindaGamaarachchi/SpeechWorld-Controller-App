@@ -26,6 +26,12 @@
 		F32EADE929A33D6C00072E88 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADE829A33D6C00072E88 /* FirebaseFunctionsCombine-Community */; };
 		F32EADEB29A33D6C00072E88 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADEA29A33D6C00072E88 /* FirebaseStorage */; };
 		F32EADED29A33D6C00072E88 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADEC29A33D6C00072E88 /* FirebaseStorageCombine-Community */; };
+		F348CCB929A75201009420CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCB829A75201009420CC /* Constant.swift */; };
+		F348CCBA29A75201009420CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCB829A75201009420CC /* Constant.swift */; };
+		F348CCBB29A75201009420CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCB829A75201009420CC /* Constant.swift */; };
+		F348CCBD29A75259009420CC /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCBC29A75259009420CC /* OnBoardView.swift */; };
+		F348CCBE29A75259009420CC /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCBC29A75259009420CC /* OnBoardView.swift */; };
+		F348CCBF29A75259009420CC /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCBC29A75259009420CC /* OnBoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,8 @@
 		F32EADC229A3371B00072E88 /* Speech-World-Controller-MainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speech-World-Controller-MainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32EADC629A3371B00072E88 /* Speech_World_Controller_MainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainUITests.swift; sourceTree = "<group>"; };
 		F32EADC829A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F348CCB829A75201009420CC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F348CCBC29A75259009420CC /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +177,7 @@
 		F348CCB129A74C6E009420CC /* Constraints */ = {
 			isa = PBXGroup;
 			children = (
+				F348CCB829A75201009420CC /* Constant.swift */,
 			);
 			path = Constraints;
 			sourceTree = "<group>";
@@ -206,6 +215,7 @@
 		F348CCB729A74F13009420CC /* OnBoard */ = {
 			isa = PBXGroup;
 			children = (
+				F348CCBC29A75259009420CC /* OnBoardView.swift */,
 			);
 			path = OnBoard;
 			sourceTree = "<group>";
@@ -357,8 +367,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */,
+				F348CCBD29A75259009420CC /* OnBoardView.swift in Sources */,
 				F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */,
 				F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */,
+				F348CCB929A75201009420CC /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +379,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F32EADBD29A3371B00072E88 /* Speech_World_Controller_MainTests.swift in Sources */,
+				F348CCBA29A75201009420CC /* Constant.swift in Sources */,
+				F348CCBE29A75259009420CC /* OnBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,8 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F348CCBF29A75259009420CC /* OnBoardView.swift in Sources */,
 				F32EADC929A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift in Sources */,
 				F32EADC729A3371B00072E88 /* Speech_World_Controller_MainUITests.swift in Sources */,
+				F348CCBB29A75201009420CC /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
