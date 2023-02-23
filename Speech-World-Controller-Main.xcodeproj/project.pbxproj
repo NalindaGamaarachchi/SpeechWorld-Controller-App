@@ -38,6 +38,9 @@
 		F348CCC529A76F4F009420CC /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC429A76F4F009420CC /* InputTextFieldView.swift */; };
 		F348CCC629A76F4F009420CC /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC429A76F4F009420CC /* InputTextFieldView.swift */; };
 		F348CCC729A76F4F009420CC /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC429A76F4F009420CC /* InputTextFieldView.swift */; };
+		F348CCC929A772DE009420CC /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC829A772DE009420CC /* InputPasswordView.swift */; };
+		F348CCCA29A772DE009420CC /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC829A772DE009420CC /* InputPasswordView.swift */; };
+		F348CCCB29A772DE009420CC /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC829A772DE009420CC /* InputPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,7 @@
 		F348CCBC29A75259009420CC /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
 		F348CCC029A754E0009420CC /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F348CCC429A76F4F009420CC /* InputTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
+		F348CCC829A772DE009420CC /* InputPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +222,7 @@
 			children = (
 				F348CCC029A754E0009420CC /* ButtonView.swift */,
 				F348CCC429A76F4F009420CC /* InputTextFieldView.swift */,
+				F348CCC829A772DE009420CC /* InputPasswordView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F348CCC929A772DE009420CC /* InputPasswordView.swift in Sources */,
 				F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */,
 				F348CCBD29A75259009420CC /* OnBoardView.swift in Sources */,
 				F348CCC129A754E0009420CC /* ButtonView.swift in Sources */,
@@ -392,6 +398,7 @@
 			files = (
 				F32EADBD29A3371B00072E88 /* Speech_World_Controller_MainTests.swift in Sources */,
 				F348CCBA29A75201009420CC /* Constant.swift in Sources */,
+				F348CCCA29A772DE009420CC /* InputPasswordView.swift in Sources */,
 				F348CCC629A76F4F009420CC /* InputTextFieldView.swift in Sources */,
 				F348CCC229A754E0009420CC /* ButtonView.swift in Sources */,
 				F348CCBE29A75259009420CC /* OnBoardView.swift in Sources */,
@@ -407,6 +414,7 @@
 				F348CCC329A754E0009420CC /* ButtonView.swift in Sources */,
 				F32EADC729A3371B00072E88 /* Speech_World_Controller_MainUITests.swift in Sources */,
 				F348CCBB29A75201009420CC /* Constant.swift in Sources */,
+				F348CCCB29A772DE009420CC /* InputPasswordView.swift in Sources */,
 				F348CCC729A76F4F009420CC /* InputTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
