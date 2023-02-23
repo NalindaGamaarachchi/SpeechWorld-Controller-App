@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADA529A3371A00072E88 /* Speech_World_Controller_MainApp.swift */; };
-		F32EADA829A3371A00072E88 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADA729A3371A00072E88 /* Persistence.swift */; };
 		F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F32EADA929A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld */; };
 		F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADAC29A3371A00072E88 /* ContentView.swift */; };
 		F32EADAF29A3371B00072E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32EADAE29A3371B00072E88 /* Assets.xcassets */; };
@@ -16,6 +15,17 @@
 		F32EADBD29A3371B00072E88 /* Speech_World_Controller_MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADBC29A3371B00072E88 /* Speech_World_Controller_MainTests.swift */; };
 		F32EADC729A3371B00072E88 /* Speech_World_Controller_MainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADC629A3371B00072E88 /* Speech_World_Controller_MainUITests.swift */; };
 		F32EADC929A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADC829A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift */; };
+		F32EADD929A33D6C00072E88 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADD829A33D6C00072E88 /* FirebaseAuth */; };
+		F32EADDB29A33D6C00072E88 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADDA29A33D6C00072E88 /* FirebaseAuthCombine-Community */; };
+		F32EADDD29A33D6C00072E88 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADDC29A33D6C00072E88 /* FirebaseDatabase */; };
+		F32EADDF29A33D6C00072E88 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADDE29A33D6C00072E88 /* FirebaseDatabaseSwift */; };
+		F32EADE129A33D6C00072E88 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADE029A33D6C00072E88 /* FirebaseFirestore */; };
+		F32EADE329A33D6C00072E88 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADE229A33D6C00072E88 /* FirebaseFirestoreCombine-Community */; };
+		F32EADE529A33D6C00072E88 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADE429A33D6C00072E88 /* FirebaseFirestoreSwift */; };
+		F32EADE729A33D6C00072E88 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADE629A33D6C00072E88 /* FirebaseFunctions */; };
+		F32EADE929A33D6C00072E88 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADE829A33D6C00072E88 /* FirebaseFunctionsCombine-Community */; };
+		F32EADEB29A33D6C00072E88 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADEA29A33D6C00072E88 /* FirebaseStorage */; };
+		F32EADED29A33D6C00072E88 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADEC29A33D6C00072E88 /* FirebaseStorageCombine-Community */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,6 @@
 /* Begin PBXFileReference section */
 		F32EADA229A3371A00072E88 /* Speech-World-Controller-Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech-World-Controller-Main.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32EADA529A3371A00072E88 /* Speech_World_Controller_MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainApp.swift; sourceTree = "<group>"; };
-		F32EADA729A3371A00072E88 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F32EADAA29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Speech_World_Controller_Main.xcdatamodel; sourceTree = "<group>"; };
 		F32EADAC29A3371A00072E88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F32EADAE29A3371B00072E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +65,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32EADED29A33D6C00072E88 /* FirebaseStorageCombine-Community in Frameworks */,
+				F32EADDF29A33D6C00072E88 /* FirebaseDatabaseSwift in Frameworks */,
+				F32EADDD29A33D6C00072E88 /* FirebaseDatabase in Frameworks */,
+				F32EADE929A33D6C00072E88 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				F32EADEB29A33D6C00072E88 /* FirebaseStorage in Frameworks */,
+				F32EADD929A33D6C00072E88 /* FirebaseAuth in Frameworks */,
+				F32EADE729A33D6C00072E88 /* FirebaseFunctions in Frameworks */,
+				F32EADE529A33D6C00072E88 /* FirebaseFirestoreSwift in Frameworks */,
+				F32EADE329A33D6C00072E88 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				F32EADE129A33D6C00072E88 /* FirebaseFirestore in Frameworks */,
+				F32EADDB29A33D6C00072E88 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +119,11 @@
 		F32EADA429A3371A00072E88 /* Speech-World-Controller-Main */ = {
 			isa = PBXGroup;
 			children = (
-				F32EADA529A3371A00072E88 /* Speech_World_Controller_MainApp.swift */,
-				F32EADA729A3371A00072E88 /* Persistence.swift */,
-				F32EADAC29A3371A00072E88 /* ContentView.swift */,
+				F348CCB529A74E34009420CC /* Mock */,
+				F348CCB329A74E0B009420CC /* View */,
+				F348CCB229A74C81009420CC /* Model */,
+				F348CCB129A74C6E009420CC /* Constraints */,
+				F348CCB029A74C3A009420CC /* App */,
 				F32EADAE29A3371B00072E88 /* Assets.xcassets */,
 				F32EADB029A3371B00072E88 /* Speech_World_Controller_Main.entitlements */,
 				F32EADA929A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld */,
@@ -135,6 +157,59 @@
 			path = "Speech-World-Controller-MainUITests";
 			sourceTree = "<group>";
 		};
+		F348CCB029A74C3A009420CC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F32EADAC29A3371A00072E88 /* ContentView.swift */,
+				F32EADA529A3371A00072E88 /* Speech_World_Controller_MainApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F348CCB129A74C6E009420CC /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		F348CCB229A74C81009420CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F348CCB329A74E0B009420CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F348CCB729A74F13009420CC /* OnBoard */,
+				F348CCB629A74EEA009420CC /* Common */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F348CCB529A74E34009420CC /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		F348CCB629A74EEA009420CC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F348CCB729A74F13009420CC /* OnBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +226,19 @@
 			dependencies = (
 			);
 			name = "Speech-World-Controller-Main";
+			packageProductDependencies = (
+				F32EADD829A33D6C00072E88 /* FirebaseAuth */,
+				F32EADDA29A33D6C00072E88 /* FirebaseAuthCombine-Community */,
+				F32EADDC29A33D6C00072E88 /* FirebaseDatabase */,
+				F32EADDE29A33D6C00072E88 /* FirebaseDatabaseSwift */,
+				F32EADE029A33D6C00072E88 /* FirebaseFirestore */,
+				F32EADE229A33D6C00072E88 /* FirebaseFirestoreCombine-Community */,
+				F32EADE429A33D6C00072E88 /* FirebaseFirestoreSwift */,
+				F32EADE629A33D6C00072E88 /* FirebaseFunctions */,
+				F32EADE829A33D6C00072E88 /* FirebaseFunctionsCombine-Community */,
+				F32EADEA29A33D6C00072E88 /* FirebaseStorage */,
+				F32EADEC29A33D6C00072E88 /* FirebaseStorageCombine-Community */,
+			);
 			productName = "Speech-World-Controller-Main";
 			productReference = F32EADA229A3371A00072E88 /* Speech-World-Controller-Main.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +311,9 @@
 				Base,
 			);
 			mainGroup = F32EAD9929A3371A00072E88;
+			packageReferences = (
+				F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F32EADA329A3371A00072E88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,7 +359,6 @@
 				F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */,
 				F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */,
 				F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */,
-				F32EADA829A3371A00072E88 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +710,75 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F32EADD829A33D6C00072E88 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F32EADDA29A33D6C00072E88 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		F32EADDC29A33D6C00072E88 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F32EADDE29A33D6C00072E88 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		F32EADE029A33D6C00072E88 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F32EADE229A33D6C00072E88 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		F32EADE429A33D6C00072E88 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F32EADE629A33D6C00072E88 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		F32EADE829A33D6C00072E88 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		F32EADEA29A33D6C00072E88 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F32EADEC29A33D6C00072E88 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32EADD729A33D6C00072E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F32EADA929A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld */ = {
