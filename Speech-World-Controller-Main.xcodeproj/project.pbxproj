@@ -32,6 +32,9 @@
 		F348CCBD29A75259009420CC /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCBC29A75259009420CC /* OnBoardView.swift */; };
 		F348CCBE29A75259009420CC /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCBC29A75259009420CC /* OnBoardView.swift */; };
 		F348CCBF29A75259009420CC /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCBC29A75259009420CC /* OnBoardView.swift */; };
+		F348CCC129A754E0009420CC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC029A754E0009420CC /* ButtonView.swift */; };
+		F348CCC229A754E0009420CC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC029A754E0009420CC /* ButtonView.swift */; };
+		F348CCC329A754E0009420CC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC029A754E0009420CC /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,7 @@
 		F32EADC829A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F348CCB829A75201009420CC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		F348CCBC29A75259009420CC /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
+		F348CCC029A754E0009420CC /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,7 @@
 		F348CCB629A74EEA009420CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F348CCC029A754E0009420CC /* ButtonView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -368,6 +373,7 @@
 			files = (
 				F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */,
 				F348CCBD29A75259009420CC /* OnBoardView.swift in Sources */,
+				F348CCC129A754E0009420CC /* ButtonView.swift in Sources */,
 				F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */,
 				F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */,
 				F348CCB929A75201009420CC /* Constant.swift in Sources */,
@@ -380,6 +386,7 @@
 			files = (
 				F32EADBD29A3371B00072E88 /* Speech_World_Controller_MainTests.swift in Sources */,
 				F348CCBA29A75201009420CC /* Constant.swift in Sources */,
+				F348CCC229A754E0009420CC /* ButtonView.swift in Sources */,
 				F348CCBE29A75259009420CC /* OnBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +397,7 @@
 			files = (
 				F348CCBF29A75259009420CC /* OnBoardView.swift in Sources */,
 				F32EADC929A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift in Sources */,
+				F348CCC329A754E0009420CC /* ButtonView.swift in Sources */,
 				F32EADC729A3371B00072E88 /* Speech_World_Controller_MainUITests.swift in Sources */,
 				F348CCBB29A75201009420CC /* Constant.swift in Sources */,
 			);
