@@ -17,36 +17,30 @@ struct InputTextFieldView: View {
     private let textFieldLeading: CGFloat = 30
     
     var body: some View {
-        VStack {
-            
-            TextField(placeholder, text: $text)
-                .frame(maxWidth: .infinity,
-                       minHeight: 44,
-                       alignment: .center)
-                .padding(.leading, systemImage == nil ? textFieldLeading / 2 : textFieldLeading)
-                .keyboardType(keyboardType)
-                .textInputAutocapitalization(.never)
-                .background(
+        VStack(alignment:.trailing) {
+            HStack(alignment:.center) {
+                if let systemImage = systemImage {
                     
-                    ZStack(alignment: .leading) {
-                        
-                        if let systemImage = systemImage {
-                            
-                            Image(systemName: systemImage)
-                                .font(.system(size: 16, weight: .semibold))
-                                .padding(.leading, 5)
-                                .foregroundColor(textColor.opacity(0.5))
-                        }
-                        
-                        RoundedRectangle(cornerRadius: 10,
-                                         style: .continuous)
-                            .stroke(textColor.opacity(0.25), lineWidth: 2)
-                    }
-                )
+                    Image(systemName: systemImage)
+                        .font(.system(size: 16, weight: .semibold))
+                        .padding(.leading, 5)
+                        .foregroundColor(textColor.opacity(0.5))
+                }
                 
+                TextField(placeholder, text: $text)
+                    .frame(maxWidth: .infinity,
+                           minHeight: 44,
+                           alignment: .center)
+                    .keyboardType(keyboardType)
+                    .textInputAutocapitalization(.never)
+                
+            }
+            Divider()
+             .frame(height: 1)
+             .background(textColor)
         }
         .background(backgroundColor)
-        .padding()
+        
     }
 }
 

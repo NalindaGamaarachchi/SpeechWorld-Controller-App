@@ -12,7 +12,7 @@ import SwiftUI
 let primaryColor: Color = Color("Primary-Color")
 let textColor: Color = Color("Text-Color")
 let backgroundColor: Color = Color("Background-Color")
-
+let buttonTextColor: Color = Color("Button-Text-Color")
 
 //images
 let OnbordImage: Image = Image("Onbord-Image")

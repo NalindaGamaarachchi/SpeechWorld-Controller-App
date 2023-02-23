@@ -20,7 +20,7 @@ struct ButtonView: View {
     
     internal init(title: String,
                   background: Color = primaryColor,
-                  foreground: Color = textColor,
+                  foreground: Color = buttonTextColor,
                   border: Color = .clear,
                   handler: @escaping ButtonView.ActionHandler) {
         self.title = title
@@ -45,8 +45,6 @@ struct ButtonView: View {
         .cornerRadius(cornerRadius)
         .fontWeight(.semibold)
         .shadow(color: textColor.opacity(0.2), radius: 5, x: 5, y: 5)
-        .padding(.vertical, 25)
-        .padding(.horizontal, 40)
     }
 }
 

@@ -41,6 +41,15 @@
 		F348CCC929A772DE009420CC /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC829A772DE009420CC /* InputPasswordView.swift */; };
 		F348CCCA29A772DE009420CC /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC829A772DE009420CC /* InputPasswordView.swift */; };
 		F348CCCB29A772DE009420CC /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC829A772DE009420CC /* InputPasswordView.swift */; };
+		F348CCD029A77B01009420CC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCCF29A77B01009420CC /* LoginService.swift */; };
+		F348CCD129A77B01009420CC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCCF29A77B01009420CC /* LoginService.swift */; };
+		F348CCD229A77B01009420CC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCCF29A77B01009420CC /* LoginService.swift */; };
+		F348CCD429A77B1F009420CC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD329A77B1F009420CC /* LoginViewModel.swift */; };
+		F348CCD529A77B1F009420CC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD329A77B1F009420CC /* LoginViewModel.swift */; };
+		F348CCD629A77B1F009420CC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD329A77B1F009420CC /* LoginViewModel.swift */; };
+		F348CCD829A77B58009420CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD729A77B58009420CC /* LoginView.swift */; };
+		F348CCD929A77B58009420CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD729A77B58009420CC /* LoginView.swift */; };
+		F348CCDA29A77B58009420CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD729A77B58009420CC /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +87,9 @@
 		F348CCC029A754E0009420CC /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F348CCC429A76F4F009420CC /* InputTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
 		F348CCC829A772DE009420CC /* InputPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordView.swift; sourceTree = "<group>"; };
+		F348CCCF29A77B01009420CC /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		F348CCD329A77B1F009420CC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F348CCD729A77B58009420CC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +151,8 @@
 		F32EADA429A3371A00072E88 /* Speech-World-Controller-Main */ = {
 			isa = PBXGroup;
 			children = (
+				F348CCCE29A77967009420CC /* Service */,
+				F348CCCD29A77956009420CC /* ViewModel */,
 				F348CCB529A74E34009420CC /* Mock */,
 				F348CCB329A74E0B009420CC /* View */,
 				F348CCB229A74C81009420CC /* Model */,
@@ -204,6 +218,7 @@
 		F348CCB329A74E0B009420CC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F348CCCC29A773FC009420CC /* Login */,
 				F348CCB729A74F13009420CC /* OnBoard */,
 				F348CCB629A74EEA009420CC /* Common */,
 			);
@@ -233,6 +248,30 @@
 				F348CCBC29A75259009420CC /* OnBoardView.swift */,
 			);
 			path = OnBoard;
+			sourceTree = "<group>";
+		};
+		F348CCCC29A773FC009420CC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F348CCD729A77B58009420CC /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F348CCCD29A77956009420CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F348CCD329A77B1F009420CC /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F348CCCE29A77967009420CC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F348CCCF29A77B01009420CC /* LoginService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,9 +424,12 @@
 				F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */,
 				F348CCBD29A75259009420CC /* OnBoardView.swift in Sources */,
 				F348CCC129A754E0009420CC /* ButtonView.swift in Sources */,
+				F348CCD029A77B01009420CC /* LoginService.swift in Sources */,
 				F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */,
 				F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */,
 				F348CCC529A76F4F009420CC /* InputTextFieldView.swift in Sources */,
+				F348CCD829A77B58009420CC /* LoginView.swift in Sources */,
+				F348CCD429A77B1F009420CC /* LoginViewModel.swift in Sources */,
 				F348CCB929A75201009420CC /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,9 +441,12 @@
 				F32EADBD29A3371B00072E88 /* Speech_World_Controller_MainTests.swift in Sources */,
 				F348CCBA29A75201009420CC /* Constant.swift in Sources */,
 				F348CCCA29A772DE009420CC /* InputPasswordView.swift in Sources */,
+				F348CCD929A77B58009420CC /* LoginView.swift in Sources */,
 				F348CCC629A76F4F009420CC /* InputTextFieldView.swift in Sources */,
+				F348CCD529A77B1F009420CC /* LoginViewModel.swift in Sources */,
 				F348CCC229A754E0009420CC /* ButtonView.swift in Sources */,
 				F348CCBE29A75259009420CC /* OnBoardView.swift in Sources */,
+				F348CCD129A77B01009420CC /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +461,9 @@
 				F348CCBB29A75201009420CC /* Constant.swift in Sources */,
 				F348CCCB29A772DE009420CC /* InputPasswordView.swift in Sources */,
 				F348CCC729A76F4F009420CC /* InputTextFieldView.swift in Sources */,
+				F348CCD229A77B01009420CC /* LoginService.swift in Sources */,
+				F348CCDA29A77B58009420CC /* LoginView.swift in Sources */,
+				F348CCD629A77B1F009420CC /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

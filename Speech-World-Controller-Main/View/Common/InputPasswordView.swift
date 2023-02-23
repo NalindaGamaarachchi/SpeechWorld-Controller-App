@@ -14,33 +14,26 @@ struct InputPasswordView: View {
     
     private let textFieldLeading: CGFloat = 30
     var body: some View {
-        VStack {
-            
-            SecureField(placeholder, text: $password)
-                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,
-                       minHeight: 44,
-                       alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                .padding(.leading, systemImage == nil ? textFieldLeading / 2 : textFieldLeading)
-                .background(
+        VStack(alignment:.trailing) {
+            HStack(alignment:.center) {
+                if let systemImage = systemImage {
                     
-                    ZStack(alignment: .leading) {
-                        
-                        if let systemImage = systemImage {
-                            
-                            Image(systemName: systemImage)
-                                .font(.system(size: 16, weight: .semibold))
-                                .padding(.leading, 5)
-                                .foregroundColor(textColor.opacity(0.5))
-                        }
-                        
-                        RoundedRectangle(cornerRadius: 10,
-                                         style: .continuous)
-                            .stroke(textColor.opacity(0.25), lineWidth: 1)
-                    }
-                )
+                    Image(systemName: systemImage)
+                        .font(.system(size: 16, weight: .semibold))
+                        .padding(.leading, 5)
+                        .foregroundColor(textColor.opacity(0.5))
+                }
+                
+                SecureField(placeholder, text: $password)
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,
+                           minHeight: 44,
+                           alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            }
+            Divider()
+             .frame(height: 1)
+             .background(textColor)
         }
         .background(backgroundColor)
-        .padding()
     }
 }
 
