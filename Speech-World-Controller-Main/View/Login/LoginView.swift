@@ -63,13 +63,15 @@ struct LoginView: View {
                     Text("New to Speech world?")
                         .padding(.trailing)
                     
+
                     Button(action: {
                         showRegistration.toggle()
                     }, label: {
                         Text("Register")
+                    
                             .font(.system(size: 16, weight: .bold))
-                            .sheet(isPresented: $showRegistration) {
-                                    //RegisterView()
+                            .fullScreenCover(isPresented: $showRegistration) {
+                                RegistrationView()
                             }
                     })
                 }
