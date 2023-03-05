@@ -60,6 +60,9 @@
 		F348CCD829A77B58009420CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD729A77B58009420CC /* LoginView.swift */; };
 		F348CCD929A77B58009420CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD729A77B58009420CC /* LoginView.swift */; };
 		F348CCDA29A77B58009420CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD729A77B58009420CC /* LoginView.swift */; };
+		F3BD069F29B4603F001AE9B7 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD069E29B4603F001AE9B7 /* ForgotPasswordViewModel.swift */; };
+		F3BD06A129B4606F001AE9B7 /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD06A029B4606F001AE9B7 /* ForgotPasswordService.swift */; };
+		F3BD06A329B460CB001AE9B7 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD06A229B460CB001AE9B7 /* ForgotPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +107,9 @@
 		F348CCCF29A77B01009420CC /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		F348CCD329A77B1F009420CC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		F348CCD729A77B58009420CC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F3BD069E29B4603F001AE9B7 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		F3BD06A029B4606F001AE9B7 /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
+		F3BD06A229B460CB001AE9B7 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +247,7 @@
 		F348CCB329A74E0B009420CC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F3BD069D29B46023001AE9B7 /* ForgotPassword */,
 				F31455C629AF25E600CFB5EE /* Registration */,
 				F348CCCC29A773FC009420CC /* Login */,
 				F348CCB729A74F13009420CC /* OnBoard */,
@@ -287,6 +294,7 @@
 			children = (
 				F348CCD329A77B1F009420CC /* LoginViewModel.swift */,
 				F31455CF29AF262200CFB5EE /* RegistrationViewModel.swift */,
+				F3BD069E29B4603F001AE9B7 /* ForgotPasswordViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -296,8 +304,17 @@
 			children = (
 				F348CCCF29A77B01009420CC /* LoginService.swift */,
 				F31455D329AF262C00CFB5EE /* RegistrationService.swift */,
+				F3BD06A029B4606F001AE9B7 /* ForgotPasswordService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		F3BD069D29B46023001AE9B7 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F3BD06A229B460CB001AE9B7 /* ForgotPasswordView.swift */,
+			);
+			path = ForgotPassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,13 +467,16 @@
 				F348CCC929A772DE009420CC /* InputPasswordView.swift in Sources */,
 				F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */,
 				F348CCBD29A75259009420CC /* OnBoardView.swift in Sources */,
+				F3BD06A329B460CB001AE9B7 /* ForgotPasswordView.swift in Sources */,
 				F31455CC29AF260E00CFB5EE /* RegistrationView.swift in Sources */,
 				F348CCC129A754E0009420CC /* ButtonView.swift in Sources */,
 				F348CCD029A77B01009420CC /* LoginService.swift in Sources */,
+				F3BD069F29B4603F001AE9B7 /* ForgotPasswordViewModel.swift in Sources */,
 				F31455D429AF262C00CFB5EE /* RegistrationService.swift in Sources */,
 				F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */,
 				F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */,
 				F348CCC529A76F4F009420CC /* InputTextFieldView.swift in Sources */,
+				F3BD06A129B4606F001AE9B7 /* ForgotPasswordService.swift in Sources */,
 				F31455D029AF262200CFB5EE /* RegistrationViewModel.swift in Sources */,
 				F348CCD829A77B58009420CC /* LoginView.swift in Sources */,
 				F348CCD429A77B1F009420CC /* LoginViewModel.swift in Sources */,
