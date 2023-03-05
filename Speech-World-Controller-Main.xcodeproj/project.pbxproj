@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31455B829AE470B00CFB5EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F31455B729AE470B00CFB5EE /* GoogleService-Info.plist */; };
+		F31455CC29AF260E00CFB5EE /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31455CB29AF260E00CFB5EE /* RegistrationView.swift */; };
+		F31455CD29AF260E00CFB5EE /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31455CB29AF260E00CFB5EE /* RegistrationView.swift */; };
+		F31455CE29AF260E00CFB5EE /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31455CB29AF260E00CFB5EE /* RegistrationView.swift */; };
+		F31455D029AF262200CFB5EE /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31455CF29AF262200CFB5EE /* RegistrationViewModel.swift */; };
+		F31455D129AF262200CFB5EE /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31455CF29AF262200CFB5EE /* RegistrationViewModel.swift */; };
+		F31455D229AF262200CFB5EE /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31455CF29AF262200CFB5EE /* RegistrationViewModel.swift */; };
+		F31455D429AF262C00CFB5EE /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31455D329AF262C00CFB5EE /* RegistrationService.swift */; };
+		F31455D529AF262C00CFB5EE /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31455D329AF262C00CFB5EE /* RegistrationService.swift */; };
+		F31455D629AF262C00CFB5EE /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31455D329AF262C00CFB5EE /* RegistrationService.swift */; };
 		F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADA529A3371A00072E88 /* Speech_World_Controller_MainApp.swift */; };
 		F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F32EADA929A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld */; };
 		F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32EADAC29A3371A00072E88 /* ContentView.swift */; };
@@ -26,6 +36,35 @@
 		F32EADE929A33D6C00072E88 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADE829A33D6C00072E88 /* FirebaseFunctionsCombine-Community */; };
 		F32EADEB29A33D6C00072E88 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADEA29A33D6C00072E88 /* FirebaseStorage */; };
 		F32EADED29A33D6C00072E88 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F32EADEC29A33D6C00072E88 /* FirebaseStorageCombine-Community */; };
+		F348CCB929A75201009420CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCB829A75201009420CC /* Constant.swift */; };
+		F348CCBA29A75201009420CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCB829A75201009420CC /* Constant.swift */; };
+		F348CCBB29A75201009420CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCB829A75201009420CC /* Constant.swift */; };
+		F348CCBD29A75259009420CC /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCBC29A75259009420CC /* OnBoardView.swift */; };
+		F348CCBE29A75259009420CC /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCBC29A75259009420CC /* OnBoardView.swift */; };
+		F348CCBF29A75259009420CC /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCBC29A75259009420CC /* OnBoardView.swift */; };
+		F348CCC129A754E0009420CC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC029A754E0009420CC /* ButtonView.swift */; };
+		F348CCC229A754E0009420CC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC029A754E0009420CC /* ButtonView.swift */; };
+		F348CCC329A754E0009420CC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC029A754E0009420CC /* ButtonView.swift */; };
+		F348CCC529A76F4F009420CC /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC429A76F4F009420CC /* InputTextFieldView.swift */; };
+		F348CCC629A76F4F009420CC /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC429A76F4F009420CC /* InputTextFieldView.swift */; };
+		F348CCC729A76F4F009420CC /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC429A76F4F009420CC /* InputTextFieldView.swift */; };
+		F348CCC929A772DE009420CC /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC829A772DE009420CC /* InputPasswordView.swift */; };
+		F348CCCA29A772DE009420CC /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC829A772DE009420CC /* InputPasswordView.swift */; };
+		F348CCCB29A772DE009420CC /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCC829A772DE009420CC /* InputPasswordView.swift */; };
+		F348CCD029A77B01009420CC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCCF29A77B01009420CC /* LoginService.swift */; };
+		F348CCD129A77B01009420CC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCCF29A77B01009420CC /* LoginService.swift */; };
+		F348CCD229A77B01009420CC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCCF29A77B01009420CC /* LoginService.swift */; };
+		F348CCD429A77B1F009420CC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD329A77B1F009420CC /* LoginViewModel.swift */; };
+		F348CCD529A77B1F009420CC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD329A77B1F009420CC /* LoginViewModel.swift */; };
+		F348CCD629A77B1F009420CC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD329A77B1F009420CC /* LoginViewModel.swift */; };
+		F348CCD829A77B58009420CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD729A77B58009420CC /* LoginView.swift */; };
+		F348CCD929A77B58009420CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD729A77B58009420CC /* LoginView.swift */; };
+		F348CCDA29A77B58009420CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348CCD729A77B58009420CC /* LoginView.swift */; };
+		F3BD069F29B4603F001AE9B7 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD069E29B4603F001AE9B7 /* ForgotPasswordViewModel.swift */; };
+		F3BD06A129B4606F001AE9B7 /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD06A029B4606F001AE9B7 /* ForgotPasswordService.swift */; };
+		F3BD06A329B460CB001AE9B7 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD06A229B460CB001AE9B7 /* ForgotPasswordView.swift */; };
+		F3BD06A529B46783001AE9B7 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD06A429B46783001AE9B7 /* SessionService.swift */; };
+		F3BD06A829B4684F001AE9B7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD06A729B4684F001AE9B7 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +85,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F31455B729AE470B00CFB5EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F31455CB29AF260E00CFB5EE /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		F31455CF29AF262200CFB5EE /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		F31455D329AF262C00CFB5EE /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
 		F32EADA229A3371A00072E88 /* Speech-World-Controller-Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech-World-Controller-Main.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32EADA529A3371A00072E88 /* Speech_World_Controller_MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainApp.swift; sourceTree = "<group>"; };
 		F32EADAA29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Speech_World_Controller_Main.xcdatamodel; sourceTree = "<group>"; };
@@ -58,6 +101,19 @@
 		F32EADC229A3371B00072E88 /* Speech-World-Controller-MainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speech-World-Controller-MainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32EADC629A3371B00072E88 /* Speech_World_Controller_MainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainUITests.swift; sourceTree = "<group>"; };
 		F32EADC829A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech_World_Controller_MainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F348CCB829A75201009420CC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F348CCBC29A75259009420CC /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
+		F348CCC029A754E0009420CC /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F348CCC429A76F4F009420CC /* InputTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
+		F348CCC829A772DE009420CC /* InputPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordView.swift; sourceTree = "<group>"; };
+		F348CCCF29A77B01009420CC /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		F348CCD329A77B1F009420CC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F348CCD729A77B58009420CC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F3BD069E29B4603F001AE9B7 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		F3BD06A029B4606F001AE9B7 /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
+		F3BD06A229B460CB001AE9B7 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		F3BD06A429B46783001AE9B7 /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		F3BD06A729B4684F001AE9B7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +152,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F31455C629AF25E600CFB5EE /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				F31455CB29AF260E00CFB5EE /* RegistrationView.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
 		F32EAD9929A3371A00072E88 = {
 			isa = PBXGroup;
 			children = (
+				F31455B729AE470B00CFB5EE /* GoogleService-Info.plist */,
 				F32EADA429A3371A00072E88 /* Speech-World-Controller-Main */,
 				F32EADBB29A3371B00072E88 /* Speech-World-Controller-MainTests */,
 				F32EADC529A3371B00072E88 /* Speech-World-Controller-MainUITests */,
@@ -119,6 +184,8 @@
 		F32EADA429A3371A00072E88 /* Speech-World-Controller-Main */ = {
 			isa = PBXGroup;
 			children = (
+				F348CCCE29A77967009420CC /* Service */,
+				F348CCCD29A77956009420CC /* ViewModel */,
 				F348CCB529A74E34009420CC /* Mock */,
 				F348CCB329A74E0B009420CC /* View */,
 				F348CCB229A74C81009420CC /* Model */,
@@ -169,6 +236,7 @@
 		F348CCB129A74C6E009420CC /* Constraints */ = {
 			isa = PBXGroup;
 			children = (
+				F348CCB829A75201009420CC /* Constant.swift */,
 			);
 			path = Constraints;
 			sourceTree = "<group>";
@@ -183,6 +251,10 @@
 		F348CCB329A74E0B009420CC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F3BD06A629B46835001AE9B7 /* Home */,
+				F3BD069D29B46023001AE9B7 /* ForgotPassword */,
+				F31455C629AF25E600CFB5EE /* Registration */,
+				F348CCCC29A773FC009420CC /* Login */,
 				F348CCB729A74F13009420CC /* OnBoard */,
 				F348CCB629A74EEA009420CC /* Common */,
 			);
@@ -199,6 +271,9 @@
 		F348CCB629A74EEA009420CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F348CCC029A754E0009420CC /* ButtonView.swift */,
+				F348CCC429A76F4F009420CC /* InputTextFieldView.swift */,
+				F348CCC829A772DE009420CC /* InputPasswordView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -206,8 +281,54 @@
 		F348CCB729A74F13009420CC /* OnBoard */ = {
 			isa = PBXGroup;
 			children = (
+				F348CCBC29A75259009420CC /* OnBoardView.swift */,
 			);
 			path = OnBoard;
+			sourceTree = "<group>";
+		};
+		F348CCCC29A773FC009420CC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F348CCD729A77B58009420CC /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F348CCCD29A77956009420CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F348CCD329A77B1F009420CC /* LoginViewModel.swift */,
+				F31455CF29AF262200CFB5EE /* RegistrationViewModel.swift */,
+				F3BD069E29B4603F001AE9B7 /* ForgotPasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F348CCCE29A77967009420CC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F348CCCF29A77B01009420CC /* LoginService.swift */,
+				F31455D329AF262C00CFB5EE /* RegistrationService.swift */,
+				F3BD06A029B4606F001AE9B7 /* ForgotPasswordService.swift */,
+				F3BD06A429B46783001AE9B7 /* SessionService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F3BD069D29B46023001AE9B7 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F3BD06A229B460CB001AE9B7 /* ForgotPasswordView.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		F3BD06A629B46835001AE9B7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F3BD06A729B4684F001AE9B7 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +453,7 @@
 			files = (
 				F32EADB329A3371B00072E88 /* Preview Assets.xcassets in Resources */,
 				F32EADAF29A3371B00072E88 /* Assets.xcassets in Resources */,
+				F31455B829AE470B00CFB5EE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,9 +478,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F348CCC929A772DE009420CC /* InputPasswordView.swift in Sources */,
 				F32EADAB29A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld in Sources */,
+				F348CCBD29A75259009420CC /* OnBoardView.swift in Sources */,
+				F3BD06A329B460CB001AE9B7 /* ForgotPasswordView.swift in Sources */,
+				F31455CC29AF260E00CFB5EE /* RegistrationView.swift in Sources */,
+				F348CCC129A754E0009420CC /* ButtonView.swift in Sources */,
+				F3BD06A529B46783001AE9B7 /* SessionService.swift in Sources */,
+				F348CCD029A77B01009420CC /* LoginService.swift in Sources */,
+				F3BD069F29B4603F001AE9B7 /* ForgotPasswordViewModel.swift in Sources */,
+				F31455D429AF262C00CFB5EE /* RegistrationService.swift in Sources */,
 				F32EADA629A3371A00072E88 /* Speech_World_Controller_MainApp.swift in Sources */,
 				F32EADAD29A3371A00072E88 /* ContentView.swift in Sources */,
+				F348CCC529A76F4F009420CC /* InputTextFieldView.swift in Sources */,
+				F3BD06A129B4606F001AE9B7 /* ForgotPasswordService.swift in Sources */,
+				F31455D029AF262200CFB5EE /* RegistrationViewModel.swift in Sources */,
+				F348CCD829A77B58009420CC /* LoginView.swift in Sources */,
+				F348CCD429A77B1F009420CC /* LoginViewModel.swift in Sources */,
+				F348CCB929A75201009420CC /* Constant.swift in Sources */,
+				F3BD06A829B4684F001AE9B7 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +505,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F32EADBD29A3371B00072E88 /* Speech_World_Controller_MainTests.swift in Sources */,
+				F31455D129AF262200CFB5EE /* RegistrationViewModel.swift in Sources */,
+				F348CCBA29A75201009420CC /* Constant.swift in Sources */,
+				F348CCCA29A772DE009420CC /* InputPasswordView.swift in Sources */,
+				F31455D529AF262C00CFB5EE /* RegistrationService.swift in Sources */,
+				F348CCD929A77B58009420CC /* LoginView.swift in Sources */,
+				F348CCC629A76F4F009420CC /* InputTextFieldView.swift in Sources */,
+				F348CCD529A77B1F009420CC /* LoginViewModel.swift in Sources */,
+				F348CCC229A754E0009420CC /* ButtonView.swift in Sources */,
+				F348CCBE29A75259009420CC /* OnBoardView.swift in Sources */,
+				F348CCD129A77B01009420CC /* LoginService.swift in Sources */,
+				F31455CD29AF260E00CFB5EE /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,8 +523,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31455CE29AF260E00CFB5EE /* RegistrationView.swift in Sources */,
+				F31455D629AF262C00CFB5EE /* RegistrationService.swift in Sources */,
+				F31455D229AF262200CFB5EE /* RegistrationViewModel.swift in Sources */,
+				F348CCBF29A75259009420CC /* OnBoardView.swift in Sources */,
 				F32EADC929A3371B00072E88 /* Speech_World_Controller_MainUITestsLaunchTests.swift in Sources */,
+				F348CCC329A754E0009420CC /* ButtonView.swift in Sources */,
 				F32EADC729A3371B00072E88 /* Speech_World_Controller_MainUITests.swift in Sources */,
+				F348CCBB29A75201009420CC /* Constant.swift in Sources */,
+				F348CCCB29A772DE009420CC /* InputPasswordView.swift in Sources */,
+				F348CCC729A76F4F009420CC /* InputTextFieldView.swift in Sources */,
+				F348CCD229A77B01009420CC /* LoginService.swift in Sources */,
+				F348CCDA29A77B58009420CC /* LoginView.swift in Sources */,
+				F348CCD629A77B1F009420CC /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +677,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -555,6 +716,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
