@@ -26,6 +26,7 @@ struct ForgotPasswordView: View {
             }
         }
         .padding()
+        .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(backgroundColor)
         .navigationBarBackButtonHidden(true)
