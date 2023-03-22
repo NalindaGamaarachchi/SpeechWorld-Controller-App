@@ -61,6 +61,7 @@ struct RegistrationView: View {
                         }
                         .padding()
                     }
+                    .padding()
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(backgroundColor)
                     .navigationBarBackButtonHidden(true)
@@ -68,6 +69,7 @@ struct RegistrationView: View {
                                     Image(systemName: "arrow.left")
                 })
                 }
+                
                 .alert(isPresented: $viewModel.hasError,
                        content: {
                         

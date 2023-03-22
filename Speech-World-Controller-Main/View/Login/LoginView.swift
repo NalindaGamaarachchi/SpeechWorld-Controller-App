@@ -51,9 +51,10 @@ struct LoginView: View {
                     })
                     .font(.system(size: 16, weight: .bold))
                     .sheet(isPresented: $showForgotPassword) {
-                            //ForgotPasswordView()
+                            ForgotPasswordView()
                     }
                 }
+                Spacer()
                 
                 ButtonView(title: "Login") {
                     viewModel.login()
@@ -76,6 +77,7 @@ struct LoginView: View {
                     })
                 }
             }
+            .padding()
             .padding()
             .alert(isPresented: $viewModel.hasError,
                    content: {
