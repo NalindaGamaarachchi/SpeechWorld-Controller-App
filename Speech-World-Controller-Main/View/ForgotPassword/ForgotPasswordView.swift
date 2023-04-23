@@ -16,6 +16,11 @@ struct ForgotPasswordView: View {
     
     var body: some View {
         VStack(spacing: 16) {
+            
+            Text("Reset password")
+                .font(.system(size: 25))
+                .fontWeight(.bold)
+            
             InputTextFieldView(text: $viewModel.email,
                                 placeholder: "Email",
                                 keyboardType: .emailAddress,
@@ -23,7 +28,7 @@ struct ForgotPasswordView: View {
                         
             ButtonView(title: "Send Password Reset") {
                     viewModel.sendPasswordResetRequest()
-            }
+            }.padding()
         }
         .padding()
         .padding()

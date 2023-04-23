@@ -41,7 +41,7 @@ struct ButtonView: View {
         })
         .background(background)
         .foregroundColor(foreground)
-        .font(.system(size: 25))
+        .font(.system(size: 20))
         .cornerRadius(cornerRadius)
         .fontWeight(.semibold)
         .shadow(color: textColor.opacity(0.2), radius: 5, x: 5, y: 5)

@@ -187,10 +187,8 @@
 				F348CCCE29A77967009420CC /* Service */,
 				F348CCCD29A77956009420CC /* ViewModel */,
 				F348CCB329A74E0B009420CC /* View */,
-				F348CCB229A74C81009420CC /* Model */,
 				F348CCB129A74C6E009420CC /* Constraints */,
 				F348CCB029A74C3A009420CC /* App */,
-				F348CCB529A74E34009420CC /* Mock */,
 				F32EADAE29A3371B00072E88 /* Assets.xcassets */,
 				F32EADB029A3371B00072E88 /* Speech_World_Controller_Main.entitlements */,
 				F32EADA929A3371A00072E88 /* Speech_World_Controller_Main.xcdatamodeld */,
@@ -241,17 +239,9 @@
 			path = Constraints;
 			sourceTree = "<group>";
 		};
-		F348CCB229A74C81009420CC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		F348CCB329A74E0B009420CC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F38F8BFF29CAF06D0029B295 /* TabView */,
 				F3BD06A629B46835001AE9B7 /* Home */,
 				F3BD069D29B46023001AE9B7 /* ForgotPassword */,
 				F31455C629AF25E600CFB5EE /* Registration */,
@@ -260,13 +250,6 @@
 				F348CCB629A74EEA009420CC /* Common */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		F348CCB529A74E34009420CC /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mock;
 			sourceTree = "<group>";
 		};
 		F348CCB629A74EEA009420CC /* Common */ = {
@@ -314,13 +297,6 @@
 				F3BD06A429B46783001AE9B7 /* SessionService.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		F38F8BFF29CAF06D0029B295 /* TabView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TabView;
 			sourceTree = "<group>";
 		};
 		F3BD069D29B46023001AE9B7 /* ForgotPassword */ = {

@@ -26,7 +26,7 @@ struct RegistrationView: View {
                         
                         
                         Text("SignUp")
-                            .font(.system(size: 30))
+                            .font(.system(size: 25))
                             .fontWeight(.bold)
                         
                         VStack(spacing: 16) {

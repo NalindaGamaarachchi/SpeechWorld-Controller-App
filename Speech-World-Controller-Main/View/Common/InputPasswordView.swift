@@ -19,7 +19,7 @@ struct InputPasswordView: View {
                 if let systemImage = systemImage {
                     
                     Image(systemName: systemImage)
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(.system(size: 14, weight: .semibold))
                         .padding(.leading, 5)
                         .foregroundColor(textColor.opacity(0.5))
                 }

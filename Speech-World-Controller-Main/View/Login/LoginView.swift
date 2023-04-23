@@ -27,7 +27,7 @@ struct LoginView: View {
                 
                 
                 Text("Login")
-                    .font(.system(size: 30))
+                    .font(.system(size: 25))
                     .fontWeight(.bold)
                     .padding()
                 
@@ -49,7 +49,7 @@ struct LoginView: View {
                     }, label: {
                         Text("Forgot Password?")
                     })
-                    .font(.system(size: 16, weight: .bold))
+                    .font(.system(size: 14, weight: .bold))
                     .sheet(isPresented: $showForgotPassword) {
                             ForgotPasswordView()
                     }
@@ -70,7 +70,7 @@ struct LoginView: View {
                     }, label: {
                         Text("Register")
                     
-                            .font(.system(size: 16, weight: .bold))
+                            .font(.system(size: 14, weight: .bold))
                             .fullScreenCover(isPresented: $showRegistration) {
                                 RegistrationView()
                             }
